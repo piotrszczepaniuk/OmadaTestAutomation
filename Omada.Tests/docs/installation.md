@@ -16,4 +16,4 @@
    - add key="Browser" value="firefox"
 - Build project in Debug or Realease environment.
 - Run test from Specfow runer or from test explorer in Visual Studio
-- Use manual to understand feature test steps <a href="https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md">manual for test steps</a> .
+- Use manual to understand test steps <a href="https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md">manual for test steps</a> .

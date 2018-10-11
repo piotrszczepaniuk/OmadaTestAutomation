@@ -1,4 +1,3 @@
-# Manual for https://www.omada.net tests
 
 # Implementation of an Automated test
 
@@ -26,12 +25,13 @@
 *	Support 2 browsers of your choice ( I have chosen: Chrome and Firefox browser the most popular browers based on market share)
 *	Please add the solution to your GitHub repository.
 
+# Manual for https://www.omada.net tests
 
-* [Navigation Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation.git/manual.md#navigation-steps)
-* [Input Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation.git/manual.md#input-steps)
-* [Click Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation.git/manual.md#click-steps)
-* [Assertion Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation.git/manual.md#assertion-steps)
-* [Screenshot Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation.git/manual.md#screenshot-steps)
+* [Navigation Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md#navigation-steps)
+* [Input Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md#input-steps)
+* [Click Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md#click-steps)
+* [Assertion Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md#assertion-steps)
+* [Screenshot Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation/blob/master/Omada.Tests/docs/manual.md#screenshot-steps)
 
 
 ## Navigation Steps
@@ -204,7 +204,8 @@ To assert that link is not present use following steps :
 
 #### Steps For Asserting count of elements
 
-To assert that count of elements is >|>=|==|<|<= :
+To assert that count of elements is correct :
+	
 	Then Count of elements having "id" "([^\"]*)"  should be (>|>=|==|<|<=) (.*)
 	Then Count of elements having "name" "([^\"]*)"  should be (>|>=|==|<|<=) (.*)
 	Then Count of elements having ""class"" "([^\"]*)"  should be (>|>=|==|<|<=) (.*)
