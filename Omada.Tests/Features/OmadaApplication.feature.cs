@@ -198,16 +198,14 @@ namespace Omada.Tests.Features
 #line 51
     testRunner.Then("I take screenshot", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 52
- testRunner.Then("I take screenshot", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 53
     testRunner.When("I hover over element having \"xpath\" \"//span[@class=\'tabmenu__menu-item\' and conta" +
                     "ins(text(),\'Germany\')]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 54
+#line 53
     testRunner.Then("I take screenshot", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 55
+#line 54
     testRunner.When("I hover over element having \"xpath\" \"//span[@class=\'tabmenu__menu-item\' and conta" +
                     "ins(text(),\'UK\')]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 56
+#line 55
     testRunner.Then("I take screenshot", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -218,32 +216,32 @@ namespace Omada.Tests.Features
         public virtual void SmokeTest_006_007_Open_Read_Privacy_Policy_Close_Cookies_And_Private_Policy()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SmokeTest_006_007_Open_Read_Privacy_Policy_Close_Cookies_And_Private_Policy", null, ((string[])(null)));
-#line 58
+#line 57
   this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 59
+#line 58
     testRunner.When("I clear all cookies", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 60
+#line 59
     testRunner.When("I navigate to \"https://www.omada.net/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 61
+#line 60
     testRunner.When("I scroll to \"end\" of page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 62
+#line 61
  testRunner.When("I open link having text \"Read Privacy Policy\" in new tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 63
+#line 62
     testRunner.Then("I should see page title as \"Omada | Processing of Personal Data\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 64
+#line 63
     testRunner.Then("element having \"xpath\" \"//section/h1\" should have text as \"WEBSITE PRIVACY POLICY" +
                     "\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 65
+#line 64
     testRunner.When("I scroll to \"end\" of page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 66
+#line 65
     testRunner.When("I click on element having \"xpath\" \"//span[@class=\'cookiebar__button button--varia" +
                     "nt1\']\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 67
+#line 66
  testRunner.When("I switch to previous tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 68
+#line 67
  testRunner.When("I close new tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 70
+#line 69
     testRunner.Then("link having text \"Read Privacy Policy\" should not be present", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -254,64 +252,64 @@ namespace Omada.Tests.Features
         public virtual void SmokeTest_008_Download_Pdf()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SmokeTest_008_Download_Pdf", null, ((string[])(null)));
-#line 72
+#line 71
   this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 73
+#line 72
     testRunner.When("I navigate to \"https://www.omada.net/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 74
+#line 73
     testRunner.When("I scroll to \"end\" of page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 75
+#line 74
  testRunner.When("I click on element having \"xpath\" \"//span[@class=\'cookiebar__button button--varia" +
                     "nt1\']\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 76
+#line 75
     testRunner.When("I click on link having text \"Cases\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 77
+#line 76
     testRunner.When("I click on link having text \"Download PDF\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 78
+#line 77
  testRunner.When("I scroll to \"end\" of page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 79
+#line 78
  testRunner.When("I switch to frame having \"css\" \"iframe\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 80
+#line 79
  testRunner.When("I enter \"John\" into input field having \"xpath\" \"//input[@id=(//label[contains(tex" +
                     "t(),\'First Name\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 81
+#line 80
  testRunner.When("I enter \"Smith\" into input field having \"xpath\" \"//input[@id=(//label[contains(te" +
                     "xt(),\'Last Name\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 82
+#line 81
  testRunner.When("I enter \"Engineer\" into input field having \"xpath\" \"//input[@id=(//label[contains" +
                     "(text(),\'Title\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 83
+#line 82
  testRunner.When("I enter \"Google\" into input field having \"xpath\" \"//input[@id=(//label[contains(t" +
                     "ext(),\'Company\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 84
+#line 83
  testRunner.When("I select \"Poland\" option by \"text\" from dropdown having \"xpath\" \"//select[@id=(//" +
                     "label[contains(text(),\'Country\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 85
+#line 84
  testRunner.When("I enter \"johnsmith@google.com\" into input field having \"xpath\" \"//input[@id=(//la" +
                     "bel[contains(text(),\'Email\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 86
+#line 85
  testRunner.When("I enter \"511111111\" into input field having \"xpath\" \"//input[@id=(//label[contain" +
                     "s(text(),\'Phone\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 87
+#line 86
     testRunner.When("I select \"+10000\" option by \"text\" from dropdown having \"xpath\" \"//select[@id=(//" +
                     "label[contains(text(),\'Number of employees\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 88
+#line 87
  testRunner.When("I select \"Manager\" option by \"text\" from dropdown having \"xpath\" \"//select[@id=(/" +
                     "/label[contains(text(),\'Level\')]/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 89
+#line 88
  testRunner.When("I select radio button having \"xpath\" \"//input[@id=(//label[text()=\'Yes\']/@for)]\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 89
+ testRunner.When("I switch to frame having \"css\" \"iframe\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 90
- testRunner.When("I switch to frame having \"css\" \"iframe\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 91
  testRunner.When("I click on element having \"css\" \"div.recaptcha-checkbox-checkmark\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 93
+#line 92
  testRunner.Given("I wait 30 secs", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 94
+#line 93
  testRunner.When("I switch to main content", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 95
+#line 94
  testRunner.When("I switch to frame having \"css\" \"iframe\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 96
+#line 95
  testRunner.When("I click on element having \"css\" \"p.submit input\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             this.ScenarioCleanup();

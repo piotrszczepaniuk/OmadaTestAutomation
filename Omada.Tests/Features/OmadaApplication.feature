@@ -49,7 +49,6 @@ Feature: OmadaApplication
     Then I take screenshot
     When I hover over element having "xpath" "//span[@class='tabmenu__menu-item selected' and contains(text(),'U.S. West')]"
     Then I take screenshot
-	Then I take screenshot
     When I hover over element having "xpath" "//span[@class='tabmenu__menu-item' and contains(text(),'Germany')]"
     Then I take screenshot
     When I hover over element having "xpath" "//span[@class='tabmenu__menu-item' and contains(text(),'UK')]"
