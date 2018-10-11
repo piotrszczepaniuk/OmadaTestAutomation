@@ -18,13 +18,13 @@
 6.	Open Read Privacy Policy in another tab. Check if it is opened and loaded properly (1-2 checks of your choice)
 7.	Click on Close button for Cookie and Privacy Policy (“cookiebar”) on previous tab and close tab with displayed Privacy Policy. Check if Privacy Policy will be not shown anymore on the site.
 8.	From the bottom of the Home page choose Cases link. On new open click Download PDF button. Fill necessary data to download PDF file (reCAPTCHA blocks automation). After downloading file, check if it is downloaded to your local machine.
-•	Make sure the task is clear, feel free to raise any related questions before submitting the test.
-•	Provide the hours spent on this task.
-•	The scenario might be decomposed to more than 1 test in any particular way, if you find it necessary (explanation/comments required).
-•	Test project code should be clean and meet coding standards
-•	Use non-build in logging framework to save logs from verification process
-•	Support 2 browsers of your choice ( I have chosen: Chrome and Firefox browser the most popular browers based on market share)
-•	Please add the solution to your GitHub repository.
+*	Make sure the task is clear, feel free to raise any related questions before submitting the test.
+*	Provide the hours spent on this task.
+*	The scenario might be decomposed to more than 1 test in any particular way, if you find it necessary (explanation/comments required).
+*	Test project code should be clean and meet coding standards
+*	Use non-build in logging framework to save logs from verification process
+*	Support 2 browsers of your choice ( I have chosen: Chrome and Firefox browser the most popular browers based on market share)
+*	Please add the solution to your GitHub repository.
 
 
 * [Navigation Steps](https://github.com/piotrszczepaniuk/OmadaTestAutomation.git/manual.md#navigation-steps)
@@ -204,7 +204,7 @@ To assert that link is not present use following steps :
 
 #### Steps For Asserting count of elements
 
-To assert that count of elements is >|>=|==|<|<=
+To assert that count of elements is >|>=|==|<|<= :
 	Then Count of elements having "id" "([^\"]*)"  should be (>|>=|==|<|<=) (.*)
 	Then Count of elements having "name" "([^\"]*)"  should be (>|>=|==|<|<=) (.*)
 	Then Count of elements having ""class"" "([^\"]*)"  should be (>|>=|==|<|<=) (.*)
